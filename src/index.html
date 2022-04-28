@@ -5,8 +5,9 @@
     <meta name="description" content="it is my first page">
     <meta name="author" content="Aleksandr">
     <meta name="robots" content="noindex, nofollow">
-    
     <title>firstPageRomanov</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -24,18 +25,21 @@
           </ul></div>    
       </nav>
   </header>
+  
   <div class="main"><div class="title_container">
       <h1>Привет <br>Я Александр Романов</h1>
-      <h4>Фулл стек веб-разработчик</h4>
+      <h4>Фулл дурачок</h4>
       <input type="submit" value="Обо мне">
       <input type="submit" value="Мои работы">
   </div></div>
+  
   <div class="aboutMe">
       <h2>Обо мне</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nobis odio, mollitia laboriosam, veritatis dolorem at commodi, necessitatibus reprehenderit repellat cupiditate esse aperiam qui ducimus.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A temporibus, suscipit in ea reprehenderit omnis ad, doloremque ullam saepe numquam natus praesentium officiis magnam, est.</p>
-      <input type="submit" value="скачать резюме">
+      <p id="qw">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, unde, nesciunt! Perspiciatis pariatur vero atque necessitatibus totam tempora veniam incidunt, et doloremque esse, facilis aperiam officiis maxime aspernatur quae! Similique.</p>
+      <p id="wq">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, unde, nesciunt! Perspiciatis pariatur vero atque necessitatibus totam tempora veniam incidunt, et doloremque esse, facilis aperiam officiis maxime aspernatur quae! Similique.</p>
+      <input type="submit" value="Скачать резюме">
   </div>
+  
   <div class="skills">
       <h2>что я умею</h2>
       <div class="webDesign">
@@ -43,7 +47,7 @@
           <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, qui.</span>
       </div>
       <div class="development">
-          <p>разработка</p>
+          <p>Разработка</p>
           <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
       </div>
       <div class="CEO">
@@ -55,59 +59,81 @@
           <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, a.</span>
       </div>
   </div>
+     
       <div class="cases">
           <h2>Кейсы</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos cum fugit fuga illo accusantium vel!</p>
+          <div id="cl">
+              <p>client:</p>
+              <span>контора срали-мазали</span>
+              <p>website:</p>
+              <span>http://www.nagazheno.com</span>
+          </div>
+          <div id="np">
+              <p>Vse v kal project</p>
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa enim impedit molestiae nostrum sunt deserunt, accusantium amet eveniet. Quisquam iure, quia beatae labore incidunt tempora voluptatibus vero eius ut! Nesciunt facilis veritatis ex esse dolores numquam similique quisquam, maiores animi nemo, explicabo harum minus! Omnis ducimus minima atque a incidunt.</span>
+          </div>
+          <input type="submit" value="VISIT LIVE SITE">
       </div>
+      
       <div class="price">
           <h2>Расчет стоимости</h2>
           <form action="priceCalculation">
               <h3>тип сайта</h3>
               <select name="site type" id="list1">
-                  <option value="opt1">выберите пункт...</option>
+                  <option value="opt1">Выберите пункт...</option>
                   <option value="opt2">Lorem ipsum dolor sit.</option>
                   <option value="opt3">Lorem ipsum dolor sit amet.</option>
               </select>
               <h3>дизайн</h3>
               <select name="design" id="list2">
-                  <option value="opt1">выберите пункт...</option>
+                  <option value="opt1">Выберите пункт...</option>
                   <option value="opt4">Lorem ipsum dolor sit.</option>
                   <option value="opt5">Lorem ipsum dolor sit amet.</option>
               </select>
               <h3>адаптивность</h3>
               <select name="adaptability" id="list3">
-                  <option value="opt1">выберите пункт...</option>
+                  <option value="opt1">Выберите пункт...</option>
                   <option value="opt6">Lorem ipsum dolor sit.</option>
                   <option value="opt7">Lorem ipsum dolor sit amet.</option>
               </select>
-          </form>              
-              <table>
-                  <tr>
-                      <td>Сроки</td>
-                      <td>0</td>
-                  </tr>
-                  <tr>
-                      <td>Стоимость</td>
-                      <td>0</td>
-                  </tr>
-              </table> 
+          </form>
+           <div class="time" >
+               <p>Сроки</p>
+               <span>0</span>
+           </div>
+           <div class="cost">
+               <p>Стоимость</p>
+               <span>0</span>    
+           </div>              
       </div>
+      
     <div class="statistics">
         <h2>немного статистики</h2>
-        <p>0</p>
-        <span>счастливых клиентов</span>
-        <p>0</p>
-        <span>часов работы</span>
-        <p>0</p>
-        <span>проектов завершено</span>
-        <p>0</p>
-        <span>наград получено</span>
+        <div id=client>
+           <p>34</p>
+           <span>счастливых клиентов</span>
+        </div>
+        <div id=timeWork>
+           <p>1,254</p>
+           <span>часов работы</span>
+        </div>
+        <div id=project>
+           <p>56</p>
+           <span>проектов завершено</span>
+        </div>
+        <div id=reward>
+           <p>14</p>
+           <span>наград получено</span>
+        </div>
     </div>
-    <div name="feedback">
+    
+    <div class="feedback">
        <h2>отзывы</h2>
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum vitae officiis eaque recusandae iusto fugit minus blanditiis voluptate illo aspernatur voluptatum deserunt quis voluptas hic quas dolor incidunt nisi, iste, saepe laborum beatae, odio temporibus inventore. Libero dolore maxime ratione neque! Magni, eligendi, voluptatibus? Mollitia!</p>
-       <p>Михаил, Ген директор ПАО"Газпром"</p> 
+       <p><span>Lorem,</span>Lorem ipsum OOO"Lorem ipsum dolor."</p> 
     </div>
+     
       <div class="contacts">
           <h2>мои контакты</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, dolorum.</p>
@@ -118,15 +144,17 @@
           </ul>
           <h3>оставьте мне сообщение</h3>
           <form action="massage">
-              <input type="name" name="firstName" placeholder="имя">
+              <input type="name" name="firstName" placeholder="Имя">
               <input type="email" name="mail" placeholder="Email">
               <textarea name="text" id="text1" cols="30" rows="10" placeholder="Сообщение"></textarea>
-              <input type="submit" value="Отправить">
           </form>
+          <input type="submit" value="Отправить">
       </div>
+      
+      <footer>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, illum.</p>
+      </footer>
+      
 </body>
-<footer>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, cum.</p>
-</footer>
 
 </html>
